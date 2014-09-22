@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Admin User Scripts with Regualr Signup" verbose="10"
+	parallel="tests" thread-count="2">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="firefox" /> i have i have i have i have i have i have i have i have i have i h
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+
+	<parameter name="selenium.url" value="https://v2-10.auctionserver.net/" />
+
+	<!-- Selenium Admin User Creation <test name="Selenium - Admin User Creation"> 
+		<classes> <class name="com.auction.verifications.adminUserCreation"> <methods> 
+		<include name="adminUserCreation" /> </methods> </class> </classes> </test> -->
+
+</suite> 

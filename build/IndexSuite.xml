@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Auction Software Automation " verbose="10" parallel="tests"
+	thread-count="1">
+
+	<!-- Put IP of localhost/Grid Hub machine -->
+	<parameter name="selenium.host" value="localhost" />
+
+	<!-- Put Port of localhost RC/Grid Hub machine -->
+	<parameter name="selenium.port" value="4444" />
+
+	<!-- Put target browser name as below: 1) Firefox : firefox 2) chrome : 
+		chrome 3) IExplorer : ie8 / ie9 -->
+	<parameter name="selenium.browser" value="firefox" />
+
+	<!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Comment 
+		<test> tag to unrun respective test. -->
+
+	<parameter name="selenium.url" value="https://v2-10.auctionserver.net/" />
+
+	<!-- Selenium Regular SignUp Feature  -->
+	
+	<test name="Selenium - Regular SignUP Feature">
+
+		<classes> 
+			<class name="com.auction.verifications.Index"> 
+				<methods> 
+					<include name="regularSignUp" /> 
+				</methods>
+			</class> 
+		</classes> 
+	</test> 
+
+	<!-- Selenium Login Feature -->
+	
+	<test name="Selenium - Login Feature">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="loginFeature" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+
+	<!-- 1.2 Selenium Regular SignUp Username Already Exist   -->
+	
+	<test name="Selenium - Regular SignUp Username Already Exist">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignUpWithUsernameAlreadyExist" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<!-- 1.3 Selenium Regular SignUp email already existing in the system -->
+	
+	<test name="Selenium - Regular SignUp email already existing in the system">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupalreadyEmailExist" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<!-- 1.31 Selenium Regular SignUp No Captcha Feature  -->
+	
+	<test name="Selenium - Regular SignUp No Captcha Feature">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupNoCaptcha" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 1.32 Selenium Regular SignUp Wrong Captcha Feature  -->
+	
+	<test name="Selenium - Regular SignUp Wrong Captcha Feature">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupWrongCaptcha" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<!-- 1.33 Selenium Regular SignUp Confirmation is not checked  -->
+	
+	<test name="Selenium - Regular SignUp Confirmation Is Not Checked">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupConfirmationIsNotChecked" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<!-- 1.75 Selenium Regular SignUp With Billing Info Mandatory -->
+	
+	<test name="Selenium - Regular SignUp With Billing Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupWithBillingInfoMandatory" />
+				</methods>
+			</class>
+		</classes>
+	</test> 
+
+	<!-- 1.76 Selenium Regular SignUp With CC Info Mandatory -->
+	
+	<test name="Selenium - Regular SignUp With CC Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupWithCCInfoMandatory" />
+				</methods>
+			</class>
+		</classes>
+	</test>  
+
+	<!-- 1.77 Selenium Regular SignUp With ACH Info Mandatory 
+	
+	<test name="Selenium - Regular SignUp With ACH Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupWithACHInfoMandatory" />
+				</methods>
+			</class>
+		</classes>
+	</test>  -->
+	
+	<!-- 1.74 Selenium Regular SignUp With Basic Info Mandatory 
+	
+	<test name="Selenium - Regular SignUp With Basic Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include name="regularSignupWithBasicInfoMandatory" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+
+	<!-- 1.78 Selenium Regular SignUp With basic info (mandatory) * billing 
+		address info (not mandatory) Mandatory 
+		
+	<test
+		name="Selenium - Regular SignUp With Basic Info Mandatory and Billing Address Info Not Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index"> 
+				<methods> 
+					<include 
+						name="regularSignupWithBasicInfoMandatoryAndBillingAddressInfoNotMandatory" /> 
+				</methods> 
+			</class> 
+		</classes> 
+	</test> --> 
+
+	<!-- 1.79 Simplified signup - includes basic info (not mandatory) billing address info (mandatory)  
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info Not Mandatory and Billing Address Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoNotMandatoryAndBillingAddressInfoMandatory" />
+				</methods>
+			</class>
+		</classes>
+	</test>--> 
+	
+	<!-- 1.80 Simplified signup - includes basic info (mandatory) billing address info (mandatory)   
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info  Mandatory and Billing Address Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoMandatoryAndBillingAddressInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.81 Simplified signup - includes basic info (mandatory) CC info (Not mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info  Mandatory and CC Info Not Mandatory">
+
+		<classes> 
+			<class name="com.auction.verifications.Index"> 
+				<methods> 
+					<include 
+						name="regularSignupWithBasicInfoMandatoryAndCCInfoNotMandatory" /> 
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.82 Simplified signup - includes basic info (Not mandatory) CC info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info  Not Mandatory and CC Info Mandatory"> 
+
+		<classes> 
+			<class name="com.auction.verifications.Index"> 
+				<methods> 
+					<include 
+						name="regularSignupWithBasicInfoNotMandatoryAndCCInfoMandatory" /> 
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.83 Simplified signup - includes basic info (mandatory) CC info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info Mandatory and CC Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoMandatoryAndCCInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.84 Simplified signup - includes basic info (mandatory) ACH info (not mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info Mandatory and ACH Info Not Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoMandatoryAndACHInfoNotMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.85 Simplified signup - includes basic info (Not mandatory) ACH info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info Not Mandatory and ACH Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoNotMandatoryAndACHInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.86 Simplified signup - includes basic info (mandatory) ACH info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Basic Info Mandatory and ACH Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBasicInfoMandatoryAndACHInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.87 Simplified signup - includes billing address info (mandatory)  CC info (not mandatory)
+	
+	<test
+		name="Selenium - Regular SignUp With Billing  Info Mandatory and CC Info Not Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBillingInfoMandatoryAndCCInfoNotMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test>  -->
+	
+	<!-- 1.88 Simplified signup - includes billing address info (Not mandatory)  CC info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Billing Info Not Mandatory and CC Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBillingInfoNotMandatoryAndCCInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.89 Simplified signup - includes billing address info (mandatory)  CC info (mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Billing Info Mandatory and CC Info Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBillingInfoMandatoryAndCCInfoMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+	
+	<!-- 1.90 Simplified signup - includes billing address info (mandatory) ACH info (Not mandatory) 
+	
+	<test
+		name="Selenium - Regular SignUp With Billing Info Mandatory and ACH Info Not Mandatory">
+
+		<classes>
+			<class name="com.auction.verifications.Index">
+				<methods>
+					<include
+						name="regularSignupWithBillingInfoMandatoryAndACHInfoNotMandatory" />
+				</methods> 
+			</class> 
+		</classes> 
+	</test> -->
+ 
+</suite> 

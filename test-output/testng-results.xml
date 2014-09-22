@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Feature-UAT"Regular SignUp Feature,TestCase Name: 1.1 RegularSignUp]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter the URL in browser address bar and hit enter.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on admin signin Link link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter admin User Name ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter admin Password ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on signin button ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on settings tab. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on manage system parameters. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on user option link. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: "maximize the registration settings." ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on save changes button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on "Ok " alert]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step  :: Click on logout from Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step  :: go to frontend]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 12 :: SignupUSer Details.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 13 :: Enter User Name]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 14 :: Enter Password]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 15 :: Enter Confirm Password]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 16 :: Enter Email]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 17 :: Enter First Name.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 18 :: Enter Last Name.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 19 :: Enter Phone.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Phone Type.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Select Contact Phone Type.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Billing First Name.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Billing Last Name.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Entring Phone Number.]]>
+    </line>
+    <line>
+      <![CDATA[Entering Phone Number :]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Select Country.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Address.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: City.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: State.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Zip.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Click on Same as billing check box.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Entring Captcha.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Selecting Terms Checkbox(Confirmaion).]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step  :: Click on signUp button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Verify New users logged in properly.]]>
+    </line>
+    <line>
+      <![CDATA[Feature-UAT"Login Feature,TestCase Name: 1.1 Login Feature.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter the URL in browser address bar and hit enter.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on Login link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Verify Login Page Elements.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Verify Usernsme Text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Password,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Not a Member text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Auctions text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify My Items text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify My Alerts text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Signup text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Forgot Password text,]]>
+    </line>
+    <line>
+      <![CDATA[Verify Forgot Usernam text.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter Login Details.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Username ::sagar1]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Password ::123123]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step :: Click on submit button]]>
+    </line>
+    <line>
+      <![CDATA[<br></br>Step :: Verify Logout Link.]]>
+    </line>
+    <line>
+      <![CDATA[Feature-UAT"Regular SignUp with username already exist feature,TestCase Name: 1.2 regularSignUpWithUsernameAlreadyExist]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 1 :: Enter the URL in browser address bar and hit enter.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on admin signin Link link.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter admin User Name ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Enter admin Password ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on signin button ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on settings tab. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on manage system parameters. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on user option link. ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: "maximize the registration settings." ::]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on save changes button.]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step :: Click on "Ok " alert]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step  :: Click on logout from Admin]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step  :: go to frontend]]>
+    </line>
+    <line>
+      <![CDATA[<br></br> Step 12 : SignupUSer Details.]]>
+    </line>
+    <line>
+      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+    </line>
+  </reporter-output>
+  <suite name="Auction Registration " duration-ms="0" started-at="2014-09-22T10:42:39Z" finished-at="2014-09-22T10:42:39Z">
+    <groups>
+    </groups>
+  </suite> <!-- Auction Registration  -->
+  <suite name="Admin User Scripts with Regualr Signup" duration-ms="0" started-at="2014-09-22T10:42:39Z" finished-at="2014-09-22T10:42:39Z">
+    <groups>
+    </groups>
+  </suite> <!-- Admin User Scripts with Regualr Signup -->
+  <suite name="Auction Software Automation " duration-ms="2201024" started-at="2014-09-22T10:05:58Z" finished-at="2014-09-22T10:42:39Z">
+    <groups>
+    </groups>
+    <test name="Selenium - Regular SignUP Feature" duration-ms="108784" started-at="2014-09-22T10:05:58Z" finished-at="2014-09-22T10:07:47Z">
+      <class name="com.auction.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.auction.verifications.Index@5fd82058]" name="fetchSuiteConfiguration" is-config="true" duration-ms="8" started-at="2014-09-22T15:35:58Z" finished-at="2014-09-22T15:35:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1642eda0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.auction.verifications.Index@5fd82058]" name="setUp" is-config="true" duration-ms="11505" started-at="2014-09-22T15:35:58Z" finished-at="2014-09-22T15:36:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.auction.verifications.Index.regularSignUp(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="regularSignUp(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@5fd82058]" name="regularSignUp" duration-ms="97259" started-at="2014-09-22T15:36:10Z" data-provider="regularsignup" finished-at="2014-09-22T15:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Feature-UAT"Regular SignUp Feature,TestCase Name: 1.1 RegularSignUp]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter the URL in browser address bar and hit enter.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on admin signin Link link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter admin User Name ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter admin Password ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on signin button ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on settings tab. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on manage system parameters. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on user option link. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: "maximize the registration settings." ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on save changes button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on "Ok " alert]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step  :: Click on logout from Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step  :: go to frontend]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 12 :: SignupUSer Details.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 13 :: Enter User Name]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 14 :: Enter Password]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 15 :: Enter Confirm Password]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 16 :: Enter Email]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 17 :: Enter First Name.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 18 :: Enter Last Name.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 19 :: Enter Phone.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Phone Type.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Select Contact Phone Type.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Billing First Name.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Billing Last Name.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Entring Phone Number.]]>
+            </line>
+            <line>
+              <![CDATA[Entering Phone Number :]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Select Country.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Address.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: City.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: State.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Zip.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Click on Same as billing check box.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Entring Captcha.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Selecting Terms Checkbox(Confirmaion).]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step  :: Click on signUp button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Verify New users logged in properly.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regularSignUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.auction.verifications.Index@5fd82058]" name="tearDown" is-config="true" duration-ms="1" started-at="2014-09-22T15:37:47Z" finished-at="2014-09-22T15:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=regularSignUp status=SUCCESS method=Index.regularSignUp(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@5fd82058] output=Feature-UAT"Regular SignUp Feature,TestCase Name: 1.1 RegularSignUp]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auction.verifications.Index -->
+    </test> <!-- Selenium - Regular SignUP Feature -->
+    <test name="Selenium - Login Feature" duration-ms="18956" started-at="2014-09-22T10:07:47Z" finished-at="2014-09-22T10:08:06Z">
+      <class name="com.auction.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.auction.verifications.Index@60f9d924]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2014-09-22T15:37:47Z" finished-at="2014-09-22T15:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fff31e1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.auction.verifications.Index@60f9d924]" name="setUp" is-config="true" duration-ms="7564" started-at="2014-09-22T15:37:47Z" finished-at="2014-09-22T15:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.auction.verifications.Index.loginFeature(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginFeature(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@60f9d924]" name="loginFeature" duration-ms="11314" started-at="2014-09-22T15:37:54Z" data-provider="login" finished-at="2014-09-22T15:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sagar1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Feature-UAT"Login Feature,TestCase Name: 1.1 Login Feature.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter the URL in browser address bar and hit enter.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on Login link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Verify Login Page Elements.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Verify Usernsme Text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Password,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Not a Member text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Auctions text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify My Items text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify My Alerts text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Signup text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Forgot Password text,]]>
+            </line>
+            <line>
+              <![CDATA[Verify Forgot Usernam text.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter Login Details.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Username ::sagar1]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Password ::123123]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step :: Click on submit button]]>
+            </line>
+            <line>
+              <![CDATA[<br></br>Step :: Verify Logout Link.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginFeature -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.auction.verifications.Index@60f9d924]" name="tearDown" is-config="true" duration-ms="75" started-at="2014-09-22T15:38:06Z" finished-at="2014-09-22T15:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginFeature status=SUCCESS method=Index.loginFeature(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@60f9d924] output=Feature-UAT"Login Feature,TestCase Name: 1.1 Login Feature.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auction.verifications.Index -->
+    </test> <!-- Selenium - Login Feature -->
+    <test name="Selenium - Regular SignUp Username Already Exist" duration-ms="2073212" started-at="2014-09-22T10:08:06Z" finished-at="2014-09-22T10:42:39Z">
+      <class name="com.auction.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.auction.verifications.Index@3851a89]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2014-09-22T15:38:06Z" finished-at="2014-09-22T15:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b23d3ce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.auction.verifications.Index@3851a89]" name="setUp" is-config="true" duration-ms="9742" started-at="2014-09-22T15:38:06Z" finished-at="2014-09-22T15:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.auction.verifications.Index.regularSignUpWithUsernameAlreadyExist(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="regularSignUpWithUsernameAlreadyExist(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@3851a89]" name="regularSignUpWithUsernameAlreadyExist" duration-ms="2063357" started-at="2014-09-22T15:38:16Z" data-provider="regularsignup" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.auction.init.Common.type(Common.java:816)
+	at com.auction.pages.SignupPage.regularSignupWithExistingUser(SignupPage.java:707)
+	at com.auction.verifications.Index.regularSignUpWithUsernameAlreadyExist(Index.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Feature-UAT"Regular SignUp with username already exist feature,TestCase Name: 1.2 regularSignUpWithUsernameAlreadyExist]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 1 :: Enter the URL in browser address bar and hit enter.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on admin signin Link link.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter admin User Name ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Enter admin Password ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on signin button ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on settings tab. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on manage system parameters. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on user option link. ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: "maximize the registration settings." ::]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on save changes button.]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step :: Click on "Ok " alert]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step  :: Click on logout from Admin]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step  :: go to frontend]]>
+            </line>
+            <line>
+              <![CDATA[<br></br> Step 12 : SignupUSer Details.]]>
+            </line>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regularSignUpWithUsernameAlreadyExist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.auction.verifications.Index@3851a89]" name="tearDown" is-config="true" duration-ms="109" started-at="2014-09-22T16:12:39Z" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=regularSignUpWithUsernameAlreadyExist status=FAILURE method=Index.regularSignUpWithUsernameAlreadyExist(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@3851a89] output=Feature-UAT"Regular SignUp with username already exist feature,TestCase Name: 1.2 regularSignUpWithUsernameAlreadyExist]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auction.verifications.Index -->
+    </test> <!-- Selenium - Regular SignUp Username Already Exist -->
+    <test name="Selenium - Regular SignUp email already existing in the system" duration-ms="50" started-at="2014-09-22T10:42:39Z" finished-at="2014-09-22T10:42:39Z">
+      <class name="com.auction.verifications.Index">
+        <test-method status="PASS" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.auction.verifications.Index@70efdf29]" name="fetchSuiteConfiguration" is-config="true" duration-ms="1" started-at="2014-09-22T16:12:39Z" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d26b88a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method status="FAIL" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.auction.verifications.Index@70efdf29]" name="setUp" is-config="true" duration-ms="0" started-at="2014-09-22T16:12:39Z" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.auction.verifications.Index.regularSignupalreadyEmailExist(java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'Rahuls-iMac.local', ip: '192.168.0.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.4', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'Rahuls-iMac.local', ip: '192.168.0.8', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.4', java.version: '1.7.0_67'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:153)
+	at com.auction.init.SeleniumInit.setUp(SeleniumInit.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1, localhost/fe80:0:0:0:0:0:0:1%1] failed: Connection refused
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:138)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:85)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:204)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:173)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:118)
+	... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="regularSignupalreadyEmailExist(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@70efdf29]" name="regularSignupalreadyEmailExist" duration-ms="1" started-at="2014-09-22T16:12:39Z" data-provider="regularsignup" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br> <b>Please look to the screenshot - </b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- regularSignupalreadyEmailExist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.auction.verifications.Index@70efdf29]" name="tearDown" is-config="true" duration-ms="1" started-at="2014-09-22T16:12:39Z" finished-at="2014-09-22T16:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=regularSignupalreadyEmailExist status=SKIP method=Index.regularSignupalreadyEmailExist(java.lang.String, java.lang.String)[pri:0, instance:com.auction.verifications.Index@70efdf29] output=<br> <b>Please look to the screenshot - </b>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.auction.verifications.Index -->
+    </test> <!-- Selenium - Regular SignUp email already existing in the system -->
+  </suite> <!-- Auction Software Automation  -->
+  <suite name="Functional_Suites_For_AuctionSoftware" duration-ms="0" started-at="2014-09-22T10:42:39Z" finished-at="2014-09-22T10:42:39Z">
+    <groups>
+    </groups>
+  </suite> <!-- Functional_Suites_For_AuctionSoftware -->
+</testng-results>

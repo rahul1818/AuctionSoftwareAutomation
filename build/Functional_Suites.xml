@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional_Suites_For_AuctionSoftware" verbose="10"
+	parallel="tests" thread-count="3">
+
+	<!-- @NOTES: 1) Un-comment <suite-file> tag to run respective test suite. 
+		2) Comment <suite-file> tag to unrun respective test suite. -->
+
+
+	<suite-files>
+
+		<!-- Run Index suite -->
+		<suite-file path="./IndexSuite.xml" />
+
+		<!-- Run Auction Registration suite -->
+		<suite-file path="./AuctionRegistrationSuite.xml" />
+		
+		<!-- Run Admin User Create Suite -->
+		<suite-file path="./AdminUserCreate.xml" />
+
+	</suite-files>
+
+</suite>

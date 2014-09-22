@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>TestNG:  Selenium - Login Feature</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Selenium - Login Feature</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 22 16:06:44 IST 2014</td>
+</tr>
+<tr><td>Total time:</td><td>18 seconds (18364 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.auction.verifications.Index.loginFeature()'><b>loginFeature</b><br>Test class: com.auction.verifications.Index<br>Parameters: sagar1, 123123<br/>
+<a href="#Output-1198160194" onClick='toggleBox("Output-1198160194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1198160194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1198160194">
+Feature-UAT"Login Feature,TestCase Name: 1.1 Login Feature.<br/>
+<br></br> Step :: Enter the URL in browser address bar and hit enter.<br/>
+<br></br> Step :: Click on Login link.<br/>
+<br></br> Step :: Verify Login Page Elements.<br/>
+<br></br>Verify Usernsme Text,<br/>
+Verify Password,<br/>
+Verify Not a Member text,<br/>
+Verify Auctions text,<br/>
+Verify My Items text,<br/>
+Verify My Alerts text,<br/>
+Verify Signup text,<br/>
+Verify Login text,<br/>
+Verify Forgot Password text,<br/>
+Verify Forgot Usernam text.<br/>
+<br></br> Step :: Enter Login Details.<br/>
+<br></br>Username ::sagar1<br/>
+<br></br>Password ::123123<br/>
+<br></br>Step :: Click on submit button<br/>
+<br></br>Step :: Verify Logout Link.<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.auction.verifications.Index@6f635b61</td></tr>
+</table><p>
+</body>
+</html>
